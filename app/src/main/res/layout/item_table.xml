@@ -1,0 +1,514 @@
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp">
+            <TextView
+                android:id="@+id/division"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/textColor"
+                android:textSize="18dp"
+                android:gravity="left"
+                android:layout_span="7">
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_height="wrap_content"
+            android:background="#EF6C00"
+            android:padding="8dp"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/tvTeam"
+                android:textStyle="bold"
+                android:textColor="@color/textColor">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/tvP"
+                android:textStyle="bold"
+                android:textColor="@color/textColor">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvW"
+                android:textStyle="bold"
+                android:textColor="@color/textColor">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/tvD"
+                android:textColor="@color/textColor"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvL"
+                android:textColor="@color/textColor"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:textColor="@color/textColor"
+                android:id="@+id/tvDiff"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:textColor="@color/textColor"
+                android:id="@+id/tvPts"
+                android:textStyle="bold">
+            </TextView>
+
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:id="@+id/tableRow3"
+            android:padding="8dp"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/tv1T"
+                android:textColor="@color/textColor"
+                android:textStyle="bold">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/tv1P"
+                android:textStyle="bold"
+                android:textColor="@color/textColor">
+            </TextView>
+
+
+
+            <TextView
+                android:id="@+id/tv1W"
+                android:textStyle="bold"
+                android:textColor="@color/textColor">
+            </TextView>
+
+
+            <TextView
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:id="@+id/tv1D">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv1L"
+                android:textStyle="bold"
+                android:textColor="@color/textColor">
+            </TextView>
+
+            <TextView
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:id="@+id/tv1Diff">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/tv1Pts"
+                android:textStyle="bold"
+                android:textColor="@color/textColor">
+            </TextView>
+        </TableRow>
+
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow4"
+        android:padding="8dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/tv2T"
+            android:textColor="@color/textColor"
+            android:textStyle="bold">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv2P"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/tv2W"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:id="@+id/tv2D">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv2L"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:id="@+id/tv2Diff">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv2Pts"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow5"
+        android:padding="8dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/tv3T"
+            android:textColor="@color/textColor"
+            android:textStyle="bold">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv3P"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/tv3W"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:id="@+id/tv3D">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv3L"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:id="@+id/tv3Diff">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv3Pts"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow6"
+        android:padding="8dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/tv4T"
+            android:textColor="@color/textColor"
+            android:textStyle="bold">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv4P"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/tv4W"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:id="@+id/tv4D">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv4L"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:id="@+id/tv4Diff">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv4Pts"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow7"
+        android:padding="8dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/tv5T"
+            android:textColor="@color/textColor"
+            android:textStyle="bold">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv5P"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/tv5W"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:id="@+id/tv5D">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv5L"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:id="@+id/tv5Diff">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv5Pts"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow8"
+        android:padding="8dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/tv6T"
+            android:textColor="@color/textColor"
+            android:textStyle="bold">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv6P"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/tv6W"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:id="@+id/tv6D">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv6L"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:id="@+id/tv6Diff">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv6Pts"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow9"
+        android:padding="8dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/tv7T"
+            android:textColor="@color/textColor"
+            android:textStyle="bold">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv7P"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/tv7W"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:id="@+id/tv7D">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv7L"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:id="@+id/tv7Diff">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv7Pts"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow10"
+        android:padding="8dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/tv8T"
+            android:textColor="@color/textColor"
+            android:textStyle="bold">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv8P"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/tv8W"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:id="@+id/tv8D">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv8L"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:id="@+id/tv8Diff">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv8Pts"
+            android:textStyle="bold"
+            android:textColor="@color/textColor">
+        </TextView>
+    </TableRow>
+
+
+    </TableLayout>
